@@ -47,9 +47,9 @@
     text-decoration: none;
     color: white;
  }
-  
+  /*SECTION*/
  .section {
-    background-image: url('./students.jpg');
+    background-image: url('./images/students.jpg');
     width: 100%;
     height: 130vh;
     text-align: center;
@@ -76,40 +76,28 @@
     font-size: 42px;
     font-weight: 400;
  }
-  
+  /*ABOUT US PAGE*/
  .grid-2-col {
     height: 80vh;
     padding: 50px;
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* column-gap: 80px; */
-    /* line-height: 1.5em; */
     display: flex;
  }
   
- /* .flex-container{
-    display: flex;
-    flex-wrap: nowrap;
- } */
- /* .flex-container>div{
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5em;
-    display: flex;
- } */
+ 
  .article {
     padding-right: 30px;
     width: 50vw;
-    line-height: 1.8em;
+    line-height: 2em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #343a40;
  }
   
  .article-picture {
     /* height: 100vh; */
     width: 50vw;
     /* padding: 30px; */
-    background-image: url('./students.jpg');
+    background-image: url('./images/students.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,13 +106,15 @@
   
  /*TEAM*/
  #team-title {
-    text-align: center;
-    margin-top: 50px;
-    /* margin-bottom: 50px; */
-    background-color: goldenrod;
-    padding: 20px 0px;
-    color: whitesmoke;
- }
+   text-align: center;
+   margin-top: 50px;
+   /* margin-bottom: 50px; */
+   background-color: goldenrod;
+   padding: 20px 0px;
+   color: whitesmoke;
+   letter-spacing: 0.1em;
+   font-weight: 700;
+}
   
  .grid-4-cols {
     display: flex;
@@ -150,7 +140,7 @@
  }
   
  .team-image-1 {
-    background-image: url('./sarah.jpg');
+    background-image: url('./images/sarah.jpg');
     padding: 5px;
     height: 30vh;
     /* width: 32vw; */
@@ -160,7 +150,7 @@
  }
   
  .team-image-2 {
-    background-image: url('./eben.jpeg');
+    background-image: url('./images/eben.jpeg');
     padding: 5px;
     height: 30vh;
     /* width: 32vw; */
@@ -170,7 +160,7 @@
  }
   
  .team-image-3 {
-    background-image: url('./enoch.JPG');
+    background-image: url('./images/enoch.JPG');
     padding: 5px;
     height: 30vh;
     /* width: 32vw; */
@@ -194,9 +184,34 @@
     /* margin-bottom: 24px; */
  }
  /*PROGRAMS*/
- #Programs-title{
+ /* #programs-title{
     background-color: goldenrod;
     text-align: center;
     margin-top: 50px;
     padding: 20px 0px;
+ } */
+ .main-container{
+   display: flex;
+   height: 140vh;
+   padding: 50px;
  }
+ .card {
+   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+   transition: 0.3s;
+   width: 20%;
+   padding: 15px;
+ }
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .container {
+   padding: 2px 16px;
+   /* display: flex; */
+   line-height: 1.7em;
+ }
+ h4{
+   letter-spacing: 0.1em;
+   margin-top: 12px;
+   margin-bottom: 6px;
+ }
+ 
