@@ -310,3 +310,13 @@ span{
    text-align: center;
    margin-left: 80px;
 }
+
+/*FOOTER*/
+.footer{
+   display: flex;
+   background-color: red;
+   /* width: 50%; */
+   margin: 24px;
+   justify-content: space-between;
+   padding: 30px;
+}
