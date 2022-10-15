@@ -94,8 +94,8 @@ li a {
 }
 
 button {
-  padding: 20px 50px;
-  border-radius: 50px;
+  padding: 10px 50px;
+  border-radius: 30px;
   background-color: goldenrod;
   border-color: goldenrod;
   color: #343a40;
@@ -263,3 +263,66 @@ button {
    background-size: cover;
    /* background-repeat: no-repeat; */
  }
+
+ /* CONTACT */
+ form{
+   height: 80vh;
+   background-color: gainsboro;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   line-height: 1.5em;
+   justify-content: center;
+   align-items: center;
+   margin: 24px;
+}
+input{
+   width: 400px;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+ 
+.form-row{
+   height: 7vh;
+   margin: 20px;
+   /* background-color: black; */
+   display: flex;
+   justify-content: space-between;
+   width: 110vh;
+
+}
+.message{
+   height: 100px;
+   width: 110vh;
+   margin: 30px;
+}
+.send-emai{
+   margin: 20px;
+   /* border-radius: 2px; */
+}
+
+
+/* FOOTER */
+ .footer{
+   display: flex;
+   background-color: red;
+   background-color: goldenrod;
+   /* width: 50%; */
+   margin: 24px;
+   justify-content: space-between;
+   justify-content: space-around;
+   padding: 30px;
+}
+   /* height: 300px ; */
+
+
+
+ul li{
+   list-style-type: none;
+   line-height: 2em;
+}
+.icons{
+   display: flex;
+   border: 1px solid black;
+}
