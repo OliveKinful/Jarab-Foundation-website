@@ -251,7 +251,7 @@ text-decoration: none;
 
  /*CONTACT*/
  input[type=text], select{
-   width: 100%;
+   width: 120%;
    padding: 12px 20px;
    margin: 8px 0;
    display: inline-block;
@@ -301,8 +301,14 @@ span{
    margin: 24px;
 }
 .form-box{
-   background-color: #c7e45e;
+   /* background-color: #c7e45e; */
    width: 50%;
+   /* padding: 10px; */
+}
+#input-field{
+   height: 60px;
+   width: 150%;
+   margin: 20px;
 }
 #subject{
    width: 200%;
@@ -314,9 +320,20 @@ span{
 /*FOOTER*/
 .footer{
    display: flex;
-   background-color: red;
+   background-color: goldenrod;
    /* width: 50%; */
    margin: 24px;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 30px;
+   /* height: 300px ; */
+}
+
+
+ul li{
+   list-style-type: none;
+   line-height: 2em;
+}
+.icons{
+   display: flex;
+   border: 1px solid black;
 }
